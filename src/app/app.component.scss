@@ -1,0 +1,18 @@
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #42a6d2;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.app-content {
+  display: flex;
+  justify-content: center !important;
+  align-items: start ;
+  height: calc(100vh - 60px);
+  padding: 20px;
+  background-color: #faf9fd;
+}

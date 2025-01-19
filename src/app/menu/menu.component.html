@@ -1,1 +1,7 @@
-<p>menu works!</p>
+<div class="menu-container">
+  <mat-list>
+    <mat-list-item *ngFor="let category of categories">
+      <button mat-fab extended (click)="navigateToExercise(category)">{{ category }}</button>
+    </mat-list-item>
+  </mat-list>
+</div>

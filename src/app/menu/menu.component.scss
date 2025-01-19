@@ -1,0 +1,27 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px; /* Adjust this value to move the buttons closer to the top */
+}
+
+mat-list {
+  width: 100%;
+}
+
+mat-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  margin-bottom: 10px; /* Add some space between buttons */
+}
+
+button[mat-fab][extended] {
+  width: 80vw; /* Set the width to 80vw */
+  text-align: center;
+  font-size: 1.2rem; /* Increase the font size for larger buttons */
+  padding: 10px; /* Add padding for larger buttons */
+}
+
+
